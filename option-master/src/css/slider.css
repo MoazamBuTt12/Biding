@@ -1,0 +1,30 @@
+
+.box-sx {
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    border-radius: 20px;
+  }
+  
+  .shadow-x{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .my-carousel .carousel-control {
+  font-size: 30px;
+  background: beige;
+  padding: 1px;
+  position: relative;
+  left: 76px;
+  height: 34px;
+}
+  
+  
+  .my-carousel .carousel-control:hover {
+    font-size: 30px;
+    background: beige;
+    padding: 1px;
+    position: relative;
+    left: 76px;
+    height: 34px;
+}
+  
+  
+  

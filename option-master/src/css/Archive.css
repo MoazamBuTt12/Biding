@@ -1,0 +1,12 @@
+@media (max-width: 767px) {
+    .mains {
+      display: table;
+      width: 100%;
+    }
+    .main-div > div {
+      display: table-row;
+    }
+    .main-div > div > div {
+      display: table-cell;
+    }
+  }

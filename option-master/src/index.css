@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+ */
+.font-all{
+  font-family: 'DM Serif Text', serif;
+
+}
+ .shadow-x{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 20px;
+}
+.font{
+    font-family: initial;
+}
+@media only screen and (max-width: 767px) {
+    /* CSS styles for mobile screens */
+    .form-group{
+      width: 265px;
+    }
+
+    input{
+      width: max-content;
+    }
+    .parent-col{
+        display: flex;
+        flex-direction: column;
+    }
+    .child-col{
+        margin-top: 25px;
+        position: relative;
+        left: 7px
+    }
+    .gap-a{
+        gap: 118px;
+    }
+    .child-form{
+        margin-bottom: 20px;
+    }
+  }
+  .accordin{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+
+
+
+  
+.box-sx {
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    border-radius: 20px;
+  }
+  
+  .shadow-x{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .my-carousel .carousel-control {
+  font-size: 30px;
+  
+  padding: 1px;
+  position: relative;
+  left: 76px;
+  height: 34px;
+}
+  
+  
+  .my-carousel .carousel-control:hover {
+    font-size: 30px;
+   
+    padding: 1px;
+    position: relative;
+    left: 76px;
+    height: 34px;
+}
+  
+.xxll{
+  position: absolute;
+  right: 64px;
+  top: 43px;
+  color: #b19676;
+
+}
+.xxlll{
+  position: absolute;
+  right: 114px;
+  top: 43px;
+  color: #b19676;
+}
+
+.footer-input::-webkit-input-placeholder {/* Chrome/Opera/Safari/Edge */
+	/*styles here*/ 
+  text-align: center;
+}
+.button-lg{
+  font-size: 12px;
+  padding: 7px;
+  width: 91px;
+  font-family: 'circular';
+}
+.button-llgs{
+  font-size: 12px;
+  background: white;
+  width: 77px;
+  font-family: 'circular';
+  border-radius: 11px;
+}
+.button-lg-verified{
+  font-size: 12px;
+  padding: 4px;
+  background: #A5A5A5;
+  padding: 5px;
+  font-family: 'circular';
+}
+.profile-llgs{
+  gap: 31px;
+  align-items: center;
+}
+.button-change-llgs{
+  background: white;
+  padding: 5px;
+  width: 118px;
+  border-radius: 6px;
+  font-weight: bold;
+  /* font-family: cicular; */
+}
+
+.bid-border{
+  transform: rotate(89deg);
+  width: 71px;
+  position: relative;
+  /* left: 146px; */
+  top: -7px;
+}

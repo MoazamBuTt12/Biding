@@ -1,0 +1,133 @@
+
+.container{
+    background-color: #2e0d23;
+
+}
+.logo-section{
+    display: flex;
+    justify-content: space-between;
+}
+#bar{
+
+ display:inline-block;
+ color:white;
+ height: 20px;
+ width: px;
+ margin-top: 23px;
+
+}
+
+.logo{
+    margin-left:13rem ;
+    padding-top: 1.3rem;
+    color:#b19676;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.1ch;
+    
+}
+.nav-bar{
+    margin-left:13rem ;  
+    padding-top: 2rem; 
+    padding-bottom: 1rem;
+    
+    
+}
+.nav-bar>ul{
+    display: flex;
+    gap:15px;
+    font-size:1rem;
+    text-transform: uppercase;
+    color:white;
+    list-style-type:none;
+    font-weight: 490;   
+}
+
+.hr {
+  transform: rotate(45deg);
+    height: 24px;
+    opacity: 0.6;
+   }
+
+   .hr22{
+    border: 1px solid;
+    right: 209px;
+    height: 213px;
+    top: 0px;
+    transform: rotate(179deg);
+    opacity: 0.1;
+}
+   
+
+
+@media screen and (min-width:768px) {
+    #bar{
+        display: none;
+    }
+}
+
+
+    @media screen and (max-width: 768px) {
+    .container{
+        width: 100vw; 
+           
+    }
+    .logo{
+        margin-left: 10px;
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    .iconss{
+
+        font-size: 28px;
+        margin-right: 20px;
+        margin-top: 9px;
+
+    }
+    .nav-bar{
+        margin-left: 10px;
+        display: none;
+    }
+    .nav-bar.show {
+        display: block;       
+    }
+    .nav-bar>ul{
+        flex-direction: column;
+        font-size: 1.6rem;
+        
+    }
+    .nav-bar ul li{
+        border-bottom: 1px solid gray;
+        padding-bottom: 20px; 
+    }
+    .hr{
+        display: none;
+    }
+
+    .nav-bar {
+        height: 0;
+        overflow: hidden;
+        transition: height 1s ease-in-out;
+      }
+      
+      .nav-bar.show {
+        height: auto;
+      }
+      .nav-bar {
+        /* Initially position the navbar off-screen to the left */
+        transform: translateX(-100%);
+      
+        /* Apply the transition effect */
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      /* Show the navbar when the showNav state is true */
+      .show {
+        /* Move the navbar back into view */
+        transform: translateX(0%);
+      }
+      
+   } 
+ 

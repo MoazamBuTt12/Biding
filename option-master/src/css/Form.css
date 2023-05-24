@@ -1,0 +1,25 @@
+.form-shadow{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.form-group{
+    display: flex;
+ width: 44rem;
+    flex-direction: row;
+    align-items: center;
+    gap: 57px;
+}
+.emails{
+    position: relative;
+    top: -17px;
+}
+.passwords{
+    position: relative;
+    top: -17px;
+    gap: 37px;
+}
+.notenable{
+    position: relative;
+    top: -48px;
+    gap: 69px;
+}

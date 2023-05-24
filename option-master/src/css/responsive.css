@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+.custom-rel{
+  position: relative;
+  top: 19px;
+  left: -69px;
+  font-size: 12px;
+  opacity: 0.5;
+
+}
+
+
+@media only screen and (min-width: 1280px) {
+  .custom-container {
+    /* background-color: red; */
+    /* max-width: 1905px; */
+    max-width: 100%;
+  }
+}
+
+.--rel{
+  position: relative;
+  display: inherit;
+  top: -34px;
+  width: 12%;
+  padding: 4px;
+  left: 44rem;
+  margin-bottom: -31px;
+  
+}
+.swiper_container{
+
+  
+}
+@media only screen and (max-width: 767px) {
+  /* CSS rules for mobile phones */
+  .logo {
+    font-size: 18px;
+    position: relative;
+    top: -8px;
+  }
+  .input{
+    width: 15rem;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .img-slider-responsive{
+    width: 79%;
+  }
+
+  .icon {
+    position: absolute;
+    right: 38px;
+    top: -8px;
+    opacity: 0.5;
+    width: 29px;
+  }
+  .li,
+  .link {
+    font-size: 16px;
+  }
+  .hr2 {
+    display: none;
+  }
+  .div,.div--2,.div--3{
+    width: 27rem;
+  }
+}
+
+.custom-width {
+  height: 38px;
+  width: 89px;
+}
+
+.custom-pos {
+  position: relative;
+  top: -24px;
+  left: 39px;
+}
+.custom-img {
+  height: 98px;
+  width: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .hello{
+    
+    position: absolute;
+    top: 90rem;
+    right: 37px;
+  }
+  .following-head {
+    margin-top: 25px;
+    margin-bottom: 34px;
+    position: relative;
+    font-size: 24px;
+    left: 18px;
+  }
+  .font-response-sm{
+    font-size: 12px;
+  }
+  .hide---hr{
+    display: none;
+  }
+  .font-see-l{
+    
+    left: -48px;
+    top: -67px;
+
+  }
+  .swiper-custom-height{
+        height: 183px;
+    margin: auto;
+
+  }
+  .child-reflex{
+    position: relative;
+    top: -13ppx;
+    margin-top: -17px;
+    margin-left: 18px;
+  }
+  .profile-reflex{
+
+margin-top: 48px;
+
+  }
+  .archive-text{
+    left: 57px;
+  }
+  .bid-price-sm{
+    font-size: 13px;
+    position: relative;
+    right: 15px;
+  }
+  .current-position{
+    gap: 47px;
+  }
+  .custom-llg{
+    gap: 248px;
+  }
+  .custom-llg-1{
+    gap: 6rem
+  }
+  .custom-llg-2{
+    gap: 3rem;
+  }
+  .custom-llg-3{
+
+    gap: 4rem;
+  }
+  .custom-llg-04{
+    position: relative;
+    right: 43px;
+    gap: 31px;
+  }
+  .t-x-l{
+    position: relative;
+    left: -36px;
+  }
+  .custom-margin {
+    margin-bottom: 66px;
+  }
+  .custom-card {
+    margin-bottom: 25px;
+  }
+  .custom-width {
+    height: 38px;
+    width: 89px;
+  }
+  .custom-img-2 {
+    height: 8rem;
+  }
+  .custom-img22 {
+    height: 11rem;
+    width: auto;
+  }
+  #summary {
+    width: max-content;
+    margin: auto;
+  }
+  .custom-relative {
+    text-align: center;
+  }
+  .custom-child-{
+    width: 356px;
+  }
+  .label{
+    margin-left: -35px;
+  }
+  .notenable{
+    gap: 27px;
+    position: relative;
+    top: -32px;
+    gap: 69px;
+
+  }
+  .input-L{
+    padding: 3px;
+  }
+  .hide-me{
+    display: none;
+  }
+  .input-contact{
+    width: 50px;
+  }
+  .address-input-d{
+    width: 238px;
+  }
+  
+  .login--input{
+    width: 224px;
+  }
+  .email-input{
+    width: 222px;
+  }
+  .pass-input{
+       width: 81px;
+    position: relative;
+    top: -10px;
+}
+  }
+
+
+.cartstyle {
+  background: #f1f5f9;
+  height: 65px;
+  border-radius: 8px;
+  width: 176vh;
+  padding: 11px;
+  margin-top: 24px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.cart-2{
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  margin-top: 24px;
+
+  height: 40px;
+  padding: 6px;
+  color:#2e0d23;
+  border-radius: 10px;
+  background: #f1f5f9;
+
+
+}
+
+@media only screen and (max-width: 767px) {
+  .custom-child-1{
+
+    position: relative;
+    right: 84px;
+  }
+  
+  .cartstyle {
+    overflow-x: hidden;
+    width: auto;
+  }
+  .hr22{
+    display: none
+    ;
+  }
+
+.custom-parent-height{
+  height: 36rem;
+}
+
+.custom-icons-position{
+
+  background-color: gray;
+  /* padding: 1rem; */
+  position: relative;
+  top: 200px;
+}
+
+
+
+
+
+
+}
+/* form below */
+
+.container-12 {
+margin-top: 9px;
+  border-radius: 10px;
+
+  /* margin: 50px auto; */
+  max-width: 500px;
+  padding: 30px;
+}
+.custom-child-gap{
+
+gap: inherit;
+
+}
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.label {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.input[type="text"], input[type="password"], input[type="email"], input[type="tel"] {
+  /* background-color: #f9f9f9; */
+  border: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #444;
+  font-size: 16px;
+  margin-top: 5px;
+  padding: 10px;
+  /* width: 100%; */
+  border-bottom: 1px solid rgb(78 70 70 / 29%);
+}
+.input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="tel"]:focus {
+  border: 1px solid #007aff;
+  outline: none;
+}
+
+
+.font-see-l{
+  display: inline;
+  float: right;
+  position: relative;
+  right: 17rem;
+  bottom: 9px;
+}
+.flex-price{
+  position: relative;
+  top: -27px;
+  justify-content: center;
+}
+.flex-gap-d{
+  position: relative;
+  top: 1rem;
+}
+.font-shadow-y{
+  font-size: 11px;
+  background: aliceblue;
+  border-radius: -7px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  position: relative;
+  top: 17px;
+}
+button:hover {
+  /* box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #3c4fe0; */
+  transform: translateY(-0.1em);
+}
+.hr-border-transform{
+  transform: rotate(89.5deg);
+}
+.current-position{
+  
+  position: relative;
+  top: 20px;
+
+
+}
+
+ 
+
+@media only screen and (min-width: 1280px) {
+  /* styles for desktop screens of 14 inches or larger */
+  .input{
+    width: 25rem;
+  } 
+}
+
+@media only screen and (min-width: 1440px) {
+  /* styles for desktop screens of 15-16 inches */
+  .input{
+    width: 25rem;
+  } 
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1439px) {
+  /* styles for desktop screens of 13 inches */
+  .input{
+    width: 25rem;
+  } 
+}
+.lot-page-price-items{
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -5px;
+  left: 5px;
+  gap: 66px;
+}
+
+/* Portrait layout */
+@media only screen and (max-device-width: 1440px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+  /* CSS rules for Galaxy S20 in portrait mode */
+}
+
+/* Portrait layout */
+@media only screen and (max-device-width: 480px) and (orientation: portrait) {
+ 
+}
